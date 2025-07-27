@@ -82,15 +82,19 @@ These advantages make C++ more robust, scalable, and developer-friendly than C, 
 
 # **Sample Output**
 
-```cpp
+a)
 Hello, World!
 
-Enter first number: 12  
-Enter second number: 4  
+b)
+      Simple Calculator       
+==============================
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+------------------------------
+Enter your choice (1-4): 4
 
-Addition: 16  
-Subtraction: 8  
-Multiplication: 48  
-Division: 3
-```
+Enter two numbers: 6 19
 
+Result: 6 / 19 = 0.315789
