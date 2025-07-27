@@ -1,0 +1,67 @@
+/* Divneev singh 
+ 24070123043 entc A2
+*\
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    float n1, n2, result;
+
+    cout << "      Simple Calculator       " << endl;
+    cout << "==============================" << endl;
+    cout << "1. Addition" << endl;
+    cout << "2. Subtraction" << endl;
+    cout << "3. Multiplication" << endl;
+    cout << "4. Division" << endl;
+    cout << "------------------------------" << endl;
+    cout << "Enter your choice (1-4): ";
+    cin >> choice;
+
+    if (choice >= 1 && choice <= 4) {
+        cout << "\nEnter two numbers: ";
+        cin >> n1 >> n2;
+
+        if (choice == 1) {
+            result = n1 + n2;
+            cout << "\nResult: " << n1 << " + " << n2 << " = " << result << endl;
+        }
+        else if (choice == 2) {
+            result = n1 - n2;
+            cout << "\nResult: " << n1 << " - " << n2 << " = " << result << endl;
+        }
+        else if (choice == 3) {
+            result = n1 * n2;
+            cout << "\nResult: " << n1 << " * " << n2 << " = " << result << endl;
+        }
+        else if (choice == 4) {
+            if (n2 != 0) {
+                result = n1 / n2;
+                cout << "\nResult: " << n1 << " / " << n2 << " = " << result << endl;
+            } else {
+                cout << "\nError: Division by zero is not allowed." << endl;
+            }
+        }
+    }
+    else {
+        cout << "\nInvalid choice! Please select a number between 1 and 4." << endl;
+    }
+
+    return 0;
+}
+/*
+Sample output 
+      Simple Calculator       
+==============================
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+------------------------------
+Enter your choice (1-4): 4
+
+Enter two numbers: 6 19
+
+Result: 6 / 19 = 0.315789
+*\
