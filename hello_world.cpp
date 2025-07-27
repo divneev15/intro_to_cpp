@@ -7,8 +7,9 @@ ENTC A2
 using namespace std;
 int main()
 {
-cout<<hello world";
+    cout<<"Hello World"<<endl;
 }
+
 
 /* output for this code
 
