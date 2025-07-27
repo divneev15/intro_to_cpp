@@ -1,16 +1,17 @@
 **C++ Experiment 1: Hello World and Calculator Application**
 
-**Aim**
+#**Aim**
+
 To:
 
 * Display a basic "Hello, World!" message using a simple C++ program.
 * Create a calculator that executes basic arithmetic operations based on user input.
 
-**Tool Used**
+#**Tool Used**
 
 * Visual Studio Code (VS Code)
 
-**Objectives**
+#**Objectives**
 
 * Understand the structure of a C++ program.
 * Learn how to use `#include` directives for library inclusion.
@@ -19,10 +20,12 @@ To:
 * Grasp key syntax elements like `using namespace std;`, function definition, and data types.
 * Use `//` to add comments for better code clarity and readability.
 
-**Theory**
+#**Theory**
+
 C++ is a powerful, high-level programming language derived from C. It supports object-oriented programming, strong type checking, and a broad library collection. C++ is widely used in system-level programming, embedded systems, and applications demanding high performance.
 
-**Why C++ is Superior to C**
+#**Why C++ is Superior to C**
+
 C++ offers several improvements over C, making it better suited for modern development:
 
 * Supports Object-Oriented Programming (OOP) including classes, inheritance, polymorphism, and objects—allowing improved code structure and reusability.
@@ -35,7 +38,7 @@ C++ offers several improvements over C, making it better suited for modern devel
 
 These advantages make C++ more robust, scalable, and developer-friendly than C, especially for complex applications.
 
-**Program Structure in C++**
+#**Program Structure in C++**
 
 * `#include <iostream>` includes the standard I/O stream library that provides access to `cin`, `cout`, and `endl`.
 * `using namespace std;` allows access to standard library elements without the `std::` prefix.
@@ -47,7 +50,7 @@ These advantages make C++ more robust, scalable, and developer-friendly than C, 
 * `return 0;` signifies that the program has executed successfully.
 * Comments using `//` help explain the logic and are ignored during compilation.
 
-**Program Description**
+#**Program Description**
 
 **Part 1: Hello World**
 
@@ -66,7 +69,7 @@ These advantages make C++ more robust, scalable, and developer-friendly than C, 
 * The results of each operation are displayed using `cout`.
 * It makes use of arithmetic operators, variables, and console input/output functions.
 
-**Concepts Used**
+#**Concepts Used**
 
 * **Header Files:** `#include <iostream>`
 * **Namespace:** `using namespace std;`
