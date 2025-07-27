@@ -1,4 +1,5 @@
-🧭 AIM:
+# 🧭 AIM:
+
 To write a C++ program that:
 
 Prints Hello World as the first output.
@@ -7,7 +8,8 @@ Takes two numbers from the user.
 
 Performs and displays addition, subtraction, multiplication, and division.
 
-🛠️ TOOLS:
+# 🛠️ TOOLS:
+
 Visual Studio Code (VS Code)
 
 C++ Compiler (e.g., g++)
@@ -16,7 +18,8 @@ iostream header file
 
 Keyboard for input
 
-📌 EXPLANATION OF THE C++ HELLO WORLD CODE:
+# 📌 EXPLANATION OF THE C++ HELLO WORLD CODE:
+
 This program is a basic C++ application that prints the phrase "Hello world:" to the screen.
 
 #include This line tells the compiler to include the Input-Output stream library, which is necessary for using cout to print output.
