@@ -85,9 +85,9 @@ These advantages make C++ more robust, scalable, and developer-friendly than C, 
 a)
 Hello, World!
 
-b)
-      Simple Calculator       
-==============================
+b) 
+  Simple calculator
+  
 1. Addition
 2. Subtraction
 3. Multiplication
