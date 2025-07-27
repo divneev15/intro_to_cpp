@@ -50,7 +50,7 @@ These advantages make C++ more robust, scalable, and developer-friendly than C, 
 * `return 0;` signifies that the program has executed successfully.
 * Comments using `//` help explain the logic and are ignored during compilation.
 
-# **Program Description**
+# **Program Algorithum **
 
 **Part 1: Hello World**
 
